@@ -1,16 +1,27 @@
 # bytelogik_task
 
-A new Flutter project.
+This project is a simple Flutter application that demonstrates a complete local authentication flow using SharedPreferences. It allows users to register, log in, and log out without relying on any backend service.
 
-## Getting Started
+# Features
 
-This project is a starting point for a Flutter application.
+* User registration with password validation (minimum length, uppercase, number, and special character).
 
-A few resources to get you started if this is your first Flutter project:
+* Login authentication using locally stored user data.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+* Session management with current user tracking and logout functionality.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+* Support for multiple users.
+
+* A reusable custom gradient button with a loading indicator.
+
+# Tech Stack
+
+* Flutter
+
+* Dart
+
+* SharedPreferences for local data storage
+
+# Purpose
+
+The main purpose of this project is to practice and demonstrate how authentication and session handling can be implemented locally in Flutter. It also serves as a simple reference for using SharedPreferences as a local database and structuring Flutter code for small projects.
